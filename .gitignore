@@ -8,6 +8,7 @@
 *.gcode
 *.scad
 /target
+/.venv
 .idea/
 .DS_Store
 *.FCStd1
