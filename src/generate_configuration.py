@@ -28,10 +28,10 @@ shape_config = {
     'nrows':  5, #5,  # key rows
     'ncols':  6, #6,  # key columns
 
-    'alpha': pi / 7 ,  #pi / 12.0,  # curvature of the columns
-    'beta':  pi / 30.0, #pi / 36.0,  # curvature of the rows
-    'centercol':  3, #3,  # controls left_right tilt / tenting (higher number is more tenting)
-    'centerrow_offset':  3.25, #3,  # rows from max, controls front_back tilt
+    'alpha': pi / 6, # 8,  #pi / 12.0,  # curvature of the columns
+    'beta':  pi / 32.0, #pi / 36.0,  # curvature of the rows
+    'centercol':  2, #3,  # controls left_right tilt / tenting (higher number is more tenting)
+    'centerrow_offset': 3, #3,  # rows from max, controls front_back tilt
     'tenting_angle':  pi / 12, #12.0,  # or, change this for more precise tenting control
 
     # symmetry states if it is a symmetric or asymmetric bui.  If asymmetric it doubles the generation time.
@@ -49,13 +49,13 @@ shape_config = {
     ),
 
 
-    'extra_width': 2.5,  # extra space between the base of keys# original= 2
-    'extra_height': 1.0,  # original= 0.5
+    'extra_width': 2.5, # 2.5  # extra space between the base of keys# original= 2
+    'extra_height': 0.0, # 1.5  # original= 0.5
 
 
     'web_thickness': 4.0 + 1.1,
     'post_size': 0.1,
-    # post_adj':  post_size / 2
+    # 'post_adj':  post_size / 2
     'post_adj': 0,
 
     ##############################
@@ -78,7 +78,7 @@ shape_config = {
     'default_separable_thumb_screw_xy_locations': [[-21, -58]],
     'mini_thumb_screw_xy_locations': [[-29, -52]],
     'mini_separable_thumb_screw_xy_locations': [[-29, -52], [-62, 10], [12, -25]],
-    'minidox_thumb_screw_xy_locations': [[-37, -34]],
+    'minidox_thumb_screw_xy_locations': [[-42, -32]],
     'minidox_separable_thumb_screw_xy_locations': [[-37, -34], [-62, 12], [10, -25]],
     'carbonfet_thumb_screw_xy_locations': [[-48, -37]],
     'carbonfet_separable_thumb_screw_xy_locations': [[-48, -37], [-52, 10], [12, -35]],
@@ -125,7 +125,6 @@ shape_config = {
     'tbiw_top_wall_y_offset_override': 50.0,
     'tbiw_top_wall_z_offset_override': 0.0,
     'tbiw_top_wall_extension_cols': 4,
-
 
 
     ###########################################
@@ -197,12 +196,11 @@ shape_config = {
     ##############################
 
 
-
-    'wall_z_offset':  15,  # length of the first downward_sloping part of the wall
-    'wall_x_offset':  5,  # offset in the x and/or y direction for the first downward_sloping part of the wall (negative)
-    'wall_y_offset':  6,  # offset in the x and/or y direction for the first downward_sloping part of the wall (negative)
-    'left_wall_x_offset':  12,  # specific values for the left side due to the minimal wall.
-    'left_wall_z_offset':  3,  # specific values for the left side due to the minimal wall.
+    'wall_z_offset':  10,  # length of the first downward_sloping part of the wall
+    'wall_x_offset':  2,  # offset in the x and/or y direction for the first downward_sloping part of the wall (negative)
+    'wall_y_offset':  4,  # offset in the x and/or y direction for the first downward_sloping part of the wall (negative)
+    'left_wall_x_offset':  6, # 12,  # specific values for the left side due to the minimal wall.
+    'left_wall_z_offset':  0,  # specific values for the left side due to the minimal wall.
     'left_wall_lower_x_offset': 0,  # specific values for the lower left corner.
     'left_wall_lower_y_offset': 0,  # specific values for the lower left corner.
     'left_wall_lower_z_offset': 0,
@@ -356,7 +354,7 @@ shape_config = {
 
     'screws_offset': 'INSIDE', # 'OUTSIDE', 'INSIDE', 'ORIGINAL'
 
-    'screw_insert_height': 4.8,
+    'screw_insert_height': 6.0,
 
     # 'screw_insert_bottom_radius': 5.31 / 2,  #Designed for inserts
     # 'screw_insert_top_radius': 5.1 / 2,  #Designed for inserts
@@ -370,8 +368,6 @@ shape_config = {
     'wire_post_height': 7,
     'wire_post_overhang': 3.5,
     'wire_post_diameter': 2.6,
-
-
 
 
     ###################################
@@ -389,7 +385,7 @@ shape_config = {
     'external_holder_height':  12.5,
     'external_holder_width':  28.75,
     'external_holder_xoffset': -5.0,
-    'external_holder_yoffset': -4.5, #Tweak this value to get the right undercut for the tray engagement.
+    'external_holder_yoffset': -2.5, #Tweak this value to get the right undercut for the tray engagement.
 
     # Offset is from the top inner corner of the top inner key.
 
