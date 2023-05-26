@@ -1,4 +1,14 @@
 # The Dactyl-ManuForm Keyboard - Python 3 - Cadquery
+
+Notes about other forks that forked from the same project that I forked... (man my head hurts)
+
+- [bullwinkle3000](https://github.com/bullwinkle3000/dactyl-keyboard) This repo helped me find that I
+  had to change the conda install to use 3.8 instead of 3.7 and to use master instead of cadquery 2
+- [ergohaven](https://github.com/ergohaven/dactyl-keyboard) The repository for the
+  [remnant](https://github.com/ergohaven/dactyl-keyboard/releases/tag/remnant-v1) and [velvet](https://github.com/ergohaven/dactyl-keyboard/releases/tag/velvet-v1)
+
+---
+
 This is a fork of [Dactyl-Manuform](https://github.com/tshort/dactyl-keyboard) by Tom Short, which itself is a fork of [Dactyl](https://github.com/adereth/dactyl-keyboard) by Matthew Adereth, a parameterized, split-hand, concave, columnar, ergonomic keyboard.
 
 While the code structure remains comparable to the original, Clojure and OpenSCAD have been replaced by Python and cadquery/OpenCASCADE.  The predecessors were exceptional contributions to the ergo keyboard community by the authors but used a rather esoteric programming language, Clojure, and a relatively inconsistent geometry engine, OpenSCAD.  My hope is that by converting the code the community will have an easier time modifying and evolving this design.  
