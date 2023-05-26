@@ -198,17 +198,17 @@ shape_config = {
 
     'wall_z_offset':  10,  # length of the first downward_sloping part of the wall
     'wall_x_offset':  2,  # offset in the x and/or y direction for the first downward_sloping part of the wall (negative)
-    'wall_y_offset':  4,  # offset in the x and/or y direction for the first downward_sloping part of the wall (negative)
+    'wall_y_offset':  6,  # 4, # offset in the x and/or y direction for the first downward_sloping part of the wall (negative)
     'left_wall_x_offset':  6, # 12,  # specific values for the left side due to the minimal wall.
     'left_wall_z_offset':  0,  # specific values for the left side due to the minimal wall.
     'left_wall_lower_x_offset': 0,  # specific values for the lower left corner.
     'left_wall_lower_y_offset': 0,  # specific values for the lower left corner.
     'left_wall_lower_z_offset': 0,
-    'wall_thickness':  4.5,  # wall thickness parameter used on upper/mid stage of the wall
-    'wall_base_y_thickness':  4.5,  # wall thickness at the lower stage
-    'wall_base_x_thickness':  4.5,  # wall thickness at the lower stage
+    'wall_thickness':  4, # 4.5, # wall thickness parameter used on upper/mid stage of the wall
+    'wall_base_y_thickness':  4, # 4.5, # wall thickness at the lower stage
+    'wall_base_x_thickness':  4, # 4.5, # wall thickness at the lower stage
 
-    'wall_base_back_thickness':  4.5,  # wall thickness at the lower stage in the specifically in back for interface.
+    'wall_base_back_thickness':  4, # 4.5, # wall thickness at the lower stage in the specifically in back for interface.
 
     ## Settings for column_style == :fixed
     ## The defaults roughly match Maltron settings
