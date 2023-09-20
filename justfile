@@ -18,3 +18,11 @@ _generate:
   cd src
   python generate_configuration.py
   python dactyl_manuform.py
+
+stl:
+  #!/usr/bin/env bash
+  mkdir -p things/stl
+  for f in things/DM_*.scad; do 
+    out="$(basename $f .scad).stl"
+    openscad -o "things/stl/$out" $f
+  done
