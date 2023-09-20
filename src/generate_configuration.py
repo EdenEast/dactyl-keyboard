@@ -28,7 +28,7 @@ shape_config = {
     'nrows':  5, #5,  # key rows
     'ncols':  6, #6,  # key columns
 
-    'alpha': pi / 6, # 8,  #pi / 12.0,  # curvature of the columns
+    'alpha': pi / 8, #pi / 12.0,  # curvature of the columns
     'beta':  pi / 32.0, #pi / 36.0,  # curvature of the rows
     'centercol':  2, #3,  # controls left_right tilt / tenting (higher number is more tenting)
     'centerrow_offset': 3, #3,  # rows from max, controls front_back tilt
