@@ -1,0 +1,6 @@
+[packages]
+numpy = "*"
+dataclasses-json = "*"
+solidpython = "*"
+scipy = "*"
+cadquery = "*"
